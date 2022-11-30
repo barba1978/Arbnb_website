@@ -32,7 +32,7 @@ axios.request(options)
 
     return(
 <>
-<h3>Motivational quotes</h3>
+<h3>Motivational quotes:</h3>
 
 {typeof quotes != "undefined" ?
 <div>

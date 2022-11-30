@@ -1,6 +1,6 @@
 import React from 'react'
 import {useEffect,useState} from 'react'
-import axios from 'axios'
+
 
 
 
@@ -10,9 +10,7 @@ const Weather=()=>{
 
     const[weather,setWeather]=useState("")
 
- const api = {
-    key:'40dd313c5c37ca2ccb0b5894446c0467',
-    base:"https://api.openweathermap.org/data/3.0/"}
+
     
         
 useEffect(()=>{

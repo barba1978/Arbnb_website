@@ -13,9 +13,10 @@ return(
           <Navbar.Brand href="/"><h3>BERGAMO38</h3></Navbar.Brand>
           <Nav className="me-auto">
           <Nav.Link href="/about"><h5>About</h5></Nav.Link>
-            <Nav.Link href="/service"><h5>Servizi</h5></Nav.Link>
-            <Nav.Link href="/attractions"><h5>Attrazioni </h5></Nav.Link>
-            <Nav.Link href="/book"><h5>Prenota & info</h5></Nav.Link>
+            <Nav.Link href="/service"><h5>Services </h5></Nav.Link>
+            <Nav.Link href="/attractions"><h5>Attractions </h5></Nav.Link>
+            <Nav.Link href="/book"><h5>Book & info</h5></Nav.Link>
+            
             
           </Nav>
         </Container>
