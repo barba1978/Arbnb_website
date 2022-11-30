@@ -1,31 +1,14 @@
 import React from "react";
-import GoogleMapReact from 'google-map-react';
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+
 
 export default function Map(){
-  const defaultProps = {
-    center: {
-      lat: 10.99835602,
-      lng: 77.01502627
-    },
-    zoom: 11
-  };
+  
 
   return (
-    // Important! Always set the container height explicitly
-    <div style={{ height: '40vh', width: '40%' }}>
-      <GoogleMapReact
-        bootstrapURLKeys={{ key:"AIzaSyAWQE4H4e23O6nMZEeVigzNapYc9dybSZY" }}
-        defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}
-      >
-        <AnyReactComponent
-          lat={59.955413}
-          lng={30.337844}
-          text="My Marker"
-        />
-      </GoogleMapReact>
-    </div>
+<>
+<iframe width="994" height="315" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=994&amp;height=315&amp;hl=en&amp;q=via%20torrente%20quisa%2038%20%20bergamo+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+
+</>
   );
 }

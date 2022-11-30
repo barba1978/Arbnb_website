@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Contact from "./Contact.js"
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
@@ -15,6 +16,9 @@ import NordicWalkingIcon from '@mui/icons-material/NordicWalking';
 
 export default function Attractions() {
   return (
+
+    <>
+   
     <List sx={{ width: '100%', maxWidth: 360,  }}>
       <ListItem>
         <ListItemAvatar>
@@ -81,6 +85,10 @@ export default function Attractions() {
         <ListItemText primary="Laghetto artificiale a 500mt dal nostro appartamento "  />
       </ListItem>
     </List>
+    <div>
+  <Contact/>
+</div>
+    </>
   );
 }
 

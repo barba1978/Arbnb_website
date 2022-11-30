@@ -29,9 +29,9 @@ useEffect(()=>{
 {typeof weather.main != "undefined" ? (
     <div className='div_around_weather'>
     <p>{weather.name}{weather.weather.map(elem=><img src="https://openweathermap.org/img/wn/03d@2x.png"/>)}</p>
-    <h6>Descrizione:{weather.weather.map(elem=><div>{elem.description}</div>)}</h6>
-    <h6>Temperatura minima:{weather.main.temp_min} °C</h6>
-    <h6>Temperatura massima:{weather.main.temp_max} °C</h6>
+    <h6>Description:{weather.weather.map(elem=><div>{elem.description}</div>)}</h6>
+    <h6>Temperature-min:{weather.main.temp_min} °C</h6>
+    <h6>Temperature-max:{weather.main.temp_max} °C</h6>
     
     <p></p>
     </div>

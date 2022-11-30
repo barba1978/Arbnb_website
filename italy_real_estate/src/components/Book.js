@@ -6,6 +6,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TaskAltIcon from '@mui/icons-material/TaskAlt';
+import Contact from "./Contact.js"
 
 
 
@@ -57,8 +58,8 @@ return(
       noValidate
       autoComplete="off"
     >
-      <p className='email--send--form' style={{display:no} }>Inviaci qui la tua richiesta di prenotazione o richiesta di informazioni per il soggiorno in BERGAMO38</p>
-      <p className='email--send--message' style={{display:yes} }> <TaskAltIcon fontSize="large" /> La tua richiesta e stata inviata con successo riceverai una risposta in brevissimo tempo<Button onClick={returnBack}>Back to the Form</Button> </p>
+      <p className='email--send--form' style={{display:no} }>Contact us @BERGAMO38</p>
+      <p className='email--send--message' style={{display:yes} }> <TaskAltIcon fontSize="large" /> Your Email has been sent! We will be back to you infew hours <Button onClick={returnBack}>Back to the Form</Button> </p>
       <TextField type='text' className='textfield--form--book'
         name='user_name' color="success" id="outlined-basic" label="Full Name" variant="outlined" required />
       <TextField type='email'
@@ -80,6 +81,9 @@ return(
 </Button>
     </Box>
         
+    <div>
+  <Contact/>
+</div>
     </div>
 )
 }

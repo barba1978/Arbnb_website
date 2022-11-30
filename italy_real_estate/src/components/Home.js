@@ -3,6 +3,7 @@ import background from '../images/first.jpg'
 import Weather from './Weather.js'
 import Quotes from './Quotes.js'
 import Chatbox from './Chatbox.js'
+import Map from './Map.js'
 
 
 
@@ -19,7 +20,7 @@ return(
 
 <hr/>
 
-<div  className='backGround--home'  style={{ backgroundImage: `url(${background})` }}>
+<div  className='backGround--home'  style={{ backgroundImage: `url(${background})`, backgroundSize:"auto" }}>
 
   
 </div>
@@ -39,12 +40,19 @@ return(
 </div>
 
 <div className='lower--body--home'>
-<br/>
-
-  <Weather/>
+  
   <br/>
-<Quotes />
+  <Weather/>
+  <Map/>
+  <br/>
+  
+  </div>
+
+
+<div>
+  <hr/>
 <br/>
+<Quotes />
 
 
 </div>

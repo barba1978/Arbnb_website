@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  box-sizing: border-box
+  box-sizing: border-box;
+
   
 }
 
@@ -48,11 +49,15 @@ gap: 1rem;
 .form--send--email{
 background-color: blanchedalmond;
 display: flex;
+align-items: center;
 justify-content: center;
 height: 50rem;
+
 }
 .form--send--email p {
   color: black;
+  
+
 }
 
 H3 , H2{
@@ -89,16 +94,11 @@ display: flex;
 }
 
 .div_around_weather{
-
 width: fit-content;
-padding: 1rem;
-background-color: #C4CBCA;
-color:#303030;
-border-radius: 10%;
+margin-left: 2rem;
+  
+  }
 
-
-
-}
 .list_item_about_page{
   text-align: left;
   list-style: none
@@ -184,4 +184,19 @@ opacity :0.6
   opacity: 1;
 }
 
+.about--pictures{
+  max-width: 80%;
+  height: 50rem;
+  margin: auto;
 
+}
+
+.lower--body--home{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about--page{
+  margin-top: 6rem;
+
+}

@@ -1,9 +1,12 @@
 
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
+import Contact from "./Contact.js"
 import First from '../images/first.jpg'
 import Second from '../images/second.jpg'
 import Third from '../images/third.jpg'
+import Fourth from '../images/fourth.jpg'
+import Fifth from '../images/fifth.jpg'
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import LocalParkingIcon from '@mui/icons-material/LocalParking';
 import ConnectedTvIcon from '@mui/icons-material/ConnectedTv';
@@ -22,7 +25,7 @@ import DeckIcon from '@mui/icons-material/Deck';
 
 function About(){
 return(
-    <div>
+    <div className='about--page'>
         
         <h3>BOUTIQUE APARTMENT </h3>
         <p> We are Andrea and Maa'ayan an Italian / Israeli couple who have decided to transform our beloved Italian apartment into a B & b. Hosting people from all over the world, trying to make them feel better than at home.
@@ -47,14 +50,14 @@ Our apartment is equipped with all comforts:</p>
       <Carousel.Item>
         <img
           
-          className="d-block w-100"
+          className="d-block w-100 about--pictures"
           src= {First}
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 about--pictures"
           src= {Second}
           alt="Second slide"
         />
@@ -63,16 +66,30 @@ Our apartment is equipped with all comforts:</p>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 about--pictures"
           src= {Third}
           alt="Third slide"
         />
-
-       
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 about--pictures"
+          src= {Fourth}
+          alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 about--pictures"
+          src= {Fifth}
+          alt="Third slide"
+        />
       </Carousel.Item>
     </Carousel>
    
-
+<div>
+  <Contact/>
+</div>
 
 
 </div>
